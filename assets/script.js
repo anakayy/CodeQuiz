@@ -70,7 +70,7 @@ function endGame() {
     ` /100!</h3>
     <h3>That means you got ` +
     score / 20 +
-    ` questions correct!</h3>
+    ` questions correct</h3>
     <input type="text" id="name" placeholder="First name"> 
     <button onclick="setScore()">Set score!</button>`;
 
@@ -126,7 +126,7 @@ function resetGame() {
     <h3>
         Click to play  
     </h3>
-    <button onclick="start()">Start!</button>`;
+    <button onclick="start()">Start</button>`;
 
   document.getElementById("quizBody").innerHTML = quizContent;
 }
