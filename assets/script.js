@@ -121,10 +121,10 @@ function resetGame() {
 
   var quizContent = `
     <h1>
-        JavaScript Quiz!
+        JavaScript Quiz
     </h1>
     <h3>
-        Click to play!   
+        Click to play  
     </h3>
     <button onclick="start()">Start!</button>`;
 
