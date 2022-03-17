@@ -64,7 +64,7 @@ function endGame() {
 
   var quizContent =
     `
-    <h2>Game over!</h2>
+    <h2>Game over</h2>
     <h3>You got a ` +
     score +
     ` /100!</h3>
@@ -72,7 +72,7 @@ function endGame() {
     score / 20 +
     ` questions correct</h3>
     <input type="text" id="name" placeholder="First name"> 
-    <button onclick="setScore()">Set score!</button>`;
+    <button onclick="setScore()">Set score</button>`;
 
   document.getElementById("quizBody").innerHTML = quizContent;
 }
@@ -94,7 +94,7 @@ function getScore() {
     localStorage.getItem("highscore") +
     `</h1><br> 
     
-    <button onclick="clearScore()">Clear score!</button><button onclick="resetGame()">Play Again!</button>
+    <button onclick="clearScore()">Clear score!</button><button onclick="resetGame()">Play Again</button>
     
     `;
 
