@@ -34,7 +34,7 @@ var questions = [
   },
 ];
 
-//setting the numerical variables for the functions.. scores and timers..
+//setting the numerical variables for the functions.. scores and timers
 var score = 0;
 var currentQuestion = -1;
 var timeLeft = 0;
@@ -94,7 +94,7 @@ function getScore() {
     localStorage.getItem("highscore") +
     `</h1><br> 
     
-    <button onclick="clearScore()">Clear score!</button><button onclick="resetGame()">Play Again</button>
+    <button onclick="clearScore()">Clear score</button><button onclick="resetGame()">Play Again</button>
     
     `;
 
